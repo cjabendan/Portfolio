@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0b0b; 
+    color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #0b0b0b;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.logo {
+    width: 35pX;
+    height: auto;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #e41422;
+}
+
+.head {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    padding: 50px 100px; 
+    box-sizing: border-box;
+}
+
+#profile {
+    display: flex;
+}
+
+.profile-container {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10x; 
+    flex-shrink: 0;
+}
+
+.profile-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: 50% 30%; 
+    margin: 0 40px 15px 0; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;
+}
+
+.content p {
+    font-size: 32px;
+    color: #e41422;
+    font-weight: bold;
+    margin: 0 0 5px 0; 
+}
+
+.content h1 {
+    font-size: 110px;
+    color: #ffffff;
+    margin: 0 0 10px 0; 
+}
+
+.content p:nth-of-type(2),
+.content p:nth-of-type(3),
+.content p:nth-of-type(4) {
+    font-size: 18px;
+    color: rgb(158, 157, 157);
+    font-weight: lighter;
+    margin: 5px 0 10px 0;
+}
+
+.Expertise {
+    background-color: #e41422;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: center;
+    margin: 10PX;
+ }
+
+ .Skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.skill-box {
+    background-color: #1c1d1c;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skill-box:hover {
+    transform: scale(1.1);
+    background-color: #e41422; 
+    color: #ffffff; 
+}
+
+.skill-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.skill-box p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+.Note{
+    font-weight: bold;
+    color: white;
+}
+
+.note-box {
+    background-color: #1c1d1c;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 980px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    box-sizing: border-box;
+}
+.Note h1{
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0 0 0 30px;
+    padding-bottom: 10px;
+}
+
+.Note p {
+    font-size: 15px;
+    color: rgb(158, 157, 157);
+    font-weight: lighter;
+    margin: 10px 0 10px 30px;
+}
+
+.Learn {
+    background-color: #e41422;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-self: flex-end;
+    margin-bottom: 75px; 
+    margin-right: 95px;
+}
+
